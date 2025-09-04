@@ -3,35 +3,35 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-gray-900 text-white py-8 mt-auto">
-  <div class="max-w-7xl mx-auto px-6">
+      <footer className="bg-gray-900 text-white py-8 mt-auto">
+  <div className="max-w-7xl mx-auto px-6">
    
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left">
       
      
       <div>
-        <h3 class="text-lg font-semibold text-blue-400">MyPortfolio</h3>
-        <p class="text-gray-400 mt-2">
+        <h3 className="text-lg font-semibold text-blue-400">MyPortfolio</h3>
+        <p className="text-gray-400 mt-2">
           Building creative and responsive web experiences.
         </p>
       </div>
 
     
       <div>
-        <h3 class="text-lg font-semibold text-blue-400">Contact Info</h3>
-        <p class="text-gray-400 mt-2">rastogi.sonika1999@gmail.com</p>
-        <p class="text-gray-400">+91 8726041337</p>
+        <h3 className="text-lg font-semibold text-blue-400">Contact Info</h3>
+        <p className="text-gray-400 mt-2">rastogi.sonika1999@gmail.com</p>
+        <p className="text-gray-400">+91 8726041337</p>
       </div>
 
    
       <div>
-        <h3 class="text-lg font-semibold text-blue-400">Connect with Me</h3>
-        <div class="flex justify-center sm:justify-start space-x-4 mt-3">
+        <h3 className="text-lg font-semibold text-blue-400">Connect with Me</h3>
+        <div className="flex justify-center sm:justify-start space-x-4 mt-3">
           
         
           <a href="https://www.linkedin.com/in/sonika-rastogi-6a8a03301/" target="_blank" 
-             class="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+             className="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
               2.76 2.24 5 5 5h14c2.76 0 
               5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
@@ -49,8 +49,8 @@ const Footer = () => {
 
          
           <a href="https://github.com/Sonika21-rastogi" target="_blank" 
-             class="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+             className="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 .297c-6.63 0-12 
               5.373-12 12 0 5.303 3.438 9.8 
               8.205 11.387.6.113.82-.258.82-.577 
@@ -79,7 +79,7 @@ const Footer = () => {
     </div>
 
   
-    <div class="text-center text-gray-500 text-sm mt-6 border-t border-gray-700 pt-4">
+    <div className="text-center text-gray-500 text-sm mt-6 border-t border-gray-700 pt-4">
       © 2024 Sonika Rastogi. All rights reserved.
     </div>
   </div>

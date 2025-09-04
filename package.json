@@ -4,13 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start:Backend": "cd Backend && nodemon server.js",
+    "start:frontend": "vite",
+    "start:all": "concurrently \"npm run start:Backend\" \"npm run start:frontend\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^7.0.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.12"
@@ -20,6 +25,7 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.2.1",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
