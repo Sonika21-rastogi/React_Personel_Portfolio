@@ -6,7 +6,8 @@
   "scripts": {
     "start:Backend": "cd Backend && nodemon server.js",
     "start:frontend": "vite",
-    "start:all": "concurrently \"npm run start:Backend\" \"npm run start:frontend\""
+    "start:all": "concurrently \"npm run start:Backend\" \"npm run start:frontend\"",
+    "build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
